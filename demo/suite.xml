@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<project>
+    <log>
+        <level>10</level> <!-- 10: DEBUG, 20: INFO, 30: WARNING, 40: ERROR -->
+        <dest>./log</dest>
+    </log>
+
+    <cases>
+        <case id="DEMO.CASE.001">
+            <class>DemoCase001</class>
+            <module>cases.case001</module>
+        </case>
+        <case id="DEMO.CASE.002">
+            <class>DemoCase002</class>
+            <module>cases.case002</module>
+        </case>
+    </cases>
+</project>
